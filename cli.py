@@ -11,7 +11,7 @@ def main():
 
     model = DepthEstimationModel()
     result = model.calculate_depthmap(args.input_image, args.output_image)
-    print(result)#this code is printing results 
+    print(result)  # this code is printing results
 
 
 if __name__ == "__main__":
